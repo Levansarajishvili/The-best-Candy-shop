@@ -360,6 +360,14 @@ Menu
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 460px) {
+   .btn-container{
+    flex-direction: column;
+   }
+    
+}
+
 .filter-btn {
   background: transparent;
   border-color: var(--clr-gold);
@@ -373,6 +381,14 @@ Menu
   cursor: pointer;
   transition: var(--transition);
 }
+
+@media (max-width: 460px) {
+   .filter-btn{
+    margin-bottom: 1rem;
+   }
+    
+}
+
 .filter-btn:hover {
   background: var(--clr-gold);
   color: var(--clr-white);
